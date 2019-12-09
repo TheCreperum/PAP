@@ -37,10 +37,10 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="265.1dp"/>
+        android:layout_height="269.5dp"/>
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="273.9dp"/>
+        android:layout_height="269.5dp"/>
 
 
     <LinearLayout
