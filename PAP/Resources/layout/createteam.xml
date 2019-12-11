@@ -24,7 +24,7 @@
             android:text="Create Team"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonCreateTeam1" />
+            android:id="@+id/btnCreateTeam1" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             android:text="ADD PLAYER"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonAddPlayer1" />
+            android:id="@+id/btnAddPlayer1" />
     </LinearLayout>
 
 
@@ -61,7 +61,7 @@
             android:text="Create Team"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonCreateTeam2" />
+            android:id="@+id/btnCreateTeam2" />
 
         <EditText
             android:layout_width="match_parent"
@@ -79,11 +79,13 @@
             android:text="ADD PLAYER"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonAddPlayer2"/>
+            android:id="@+id/btnAddPlayer2"/>
+    </LinearLayout>
 
-    </LinearLayout>
-        <Button
-            android:text="CONTINUE"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-    </LinearLayout>
+
+    <Button
+        android:text="CONTINUE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnContinuePlayers"/>
+  </LinearLayout>

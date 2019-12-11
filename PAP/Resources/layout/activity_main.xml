@@ -17,14 +17,14 @@
     <Button
         android:text="Create Team/s"
         android:textSize="50px"
-        android:id="@+id/buttonCreate" 
+        android:id="@+id/btnCreate" 
         android:layout_rowWeight="2"
         android:layout_columnWeight="1"
         android:onClick="button_OnClick"/>
     <Button
         android:text="Choose Teams"
         android:textSize="50px"
-        android:id="@+id/buttonChoose" 
+        android:id="@+id/btnChoose" 
         android:layout_rowWeight="2"
         android:layout_columnWeight="1"
         android:layout_marginTop="30px"/>

@@ -17,14 +17,15 @@ namespace PAP
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            var btnCreate = FindViewById<Button>(Resource.Id.buttonCreate);
-            var btnChoose = FindViewById<Button>(Resource.Id.buttonChoose);
+            var btnCreate = FindViewById<Button>(Resource.Id.btnCreate);
+            var btnChoose = FindViewById<Button>(Resource.Id.btnChoose);
 
             btnCreate.Click += (s, e) =>
             {
                 Intent nextActivity = new Intent(this, typeof(ChangeLayout));
                 StartActivity(nextActivity);
             };
+
             btnChoose.Click += (s, e) =>
             {
                 Intent nextActivity2 = new Intent(this, typeof(ChooseLayout));
