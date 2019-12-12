@@ -39,7 +39,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="269.5dp"
-        android:orientation="vertical""
+        android:orientation="vertical"
     >
         <Button
             android:text="Button"

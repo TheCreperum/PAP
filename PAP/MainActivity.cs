@@ -19,6 +19,8 @@ namespace PAP
 
             var btnCreate = FindViewById<Button>(Resource.Id.btnCreate);
             var btnChoose = FindViewById<Button>(Resource.Id.btnChoose);
+            var btnContinueCreate = FindViewById<Button>(Resource.Id.btnContinuePlayers);
+            var btnContinueChoose = FindViewById<Button>(Resource.Id.btnContinueTeams);
 
             btnCreate.Click += (s, e) =>
             {
@@ -30,6 +32,16 @@ namespace PAP
             {
                 Intent nextActivity2 = new Intent(this, typeof(ChooseLayout));
                 StartActivity(nextActivity2);
+            };
+            btnContinueCreate.Click += (s, e) =>
+            {
+                Intent nextActivity3 = new Intent(this, typeof(GameLayout));
+                StartActivity(nextActivity3);
+            };
+            btnContinueChoose.Click += (s, e) =>
+            {
+                Intent nextActivity4 = new Intent(this, typeof(GameLayout));
+                StartActivity(nextActivity4);
             };
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
