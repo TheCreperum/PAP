@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -17,15 +17,16 @@
     <Button
         android:text="Create Team/s"
         android:textSize="50px"
-        android:id="@+id/btnCreate" 
+        android:id="@+id/btnCreate"
         android:layout_rowWeight="2"
         android:layout_columnWeight="1"
-        android:onClick="button_OnClick"/>
+        android:onClick="button_OnClick"
+        android:layout_marginBottom="18.3dp" />
     <Button
         android:text="Choose Teams"
         android:textSize="50px"
-        android:id="@+id/btnChoose" 
+        android:id="@+id/btnChoose"
         android:layout_rowWeight="2"
         android:layout_columnWeight="1"
-        android:layout_marginTop="30px"/>
+        android:layout_marginTop="16.4dp"/>
 </GridLayout>

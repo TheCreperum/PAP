@@ -17,9 +17,10 @@
         android:id="@+id/listViewTeams" />
 
     <Button
+        android:id="@+id/btnContinueTeams"
+        android:onClick="button_OnClick"
         android:text="CONTINUE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnContinueTeams"
         android:padding="60px"/>
 </LinearLayout>
